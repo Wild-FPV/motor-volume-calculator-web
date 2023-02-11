@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(191, 235, 220);
+    padding: 20px;
+}
+.title a{
+    text-decoration: none;
+}
+.title{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    background-color: bisque;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+::placeholder{
+    text-align: center;
+}
+input{
+    width:244px;
+    margin: 0%;
+    padding: 0%;
+    height:30px;
+}
+.entry{
+    padding-top: 15px;
+    width: 500px;
+    margin: auto;
+}
+button{
+    width: 200px;
+}
+.submit{
+    padding-top: 20px;
+    width:200px;
+    margin: auto;
+}
+.result{
+    color: black;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background-color: bisque;
+    border-radius: 10px;
+}
