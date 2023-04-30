@@ -1,5 +1,11 @@
 document.getElementById("submitButton").addEventListener("click",calculate)
 
+document.addEventListener("keydown",(event) =>{
+    if(event.key=="Enter"){
+        calculate();
+    }
+});
+
 function calculate(){
     let statorWidth = document.getElementById("motor_width").value;
     let statorHeight = document.getElementById("motor_height").value;
