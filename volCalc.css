@@ -1,11 +1,11 @@
-body{
+body {
     background-color: rgb(191, 235, 220);
     padding: 20px;
 }
-.title a{
+.title a {
     text-decoration: none;
 }
-.title{
+.title {
     width: 500px;
     margin: auto;
     text-align: center;
@@ -15,33 +15,39 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-::placeholder{
+::placeholder {
     text-align: center;
 }
-input{
-    width:244px;
+input {
+    width: 244px;
     margin: 0%;
     padding: 0%;
-    height:30px;
+    height: 30px;
 }
-.entry{
+.entry {
     padding-top: 15px;
     width: 500px;
     margin: auto;
 }
-button{
+button {
     width: 200px;
 }
-.submit{
+.submit {
     padding-top: 20px;
-    width:200px;
+    width: 200px;
     margin: auto;
 }
-.result{
+.result {
     color: black;
     text-align: center;
     width: 500px;
     margin: auto;
     background-color: bisque;
     border-radius: 10px;
+}
+
+#msg {
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
 }
